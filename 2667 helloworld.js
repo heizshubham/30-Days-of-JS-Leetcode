@@ -12,11 +12,20 @@
 // var result = fun()
 // console.log(result(2,3)) 
 
+// ---------------------------------------------
 
 
-function createHelloWorld(){
-    function f(){
+// function createHelloWorld(){
+//     function f(){
+//         return "Hello World"
+//     }
+//     return f
+// }
+
+// 0r
+
+var createHelloWorld = function(){
+    return function(...args){
         return "Hello World"
     }
-    return f
 }
