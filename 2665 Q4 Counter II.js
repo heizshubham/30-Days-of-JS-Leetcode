@@ -26,7 +26,7 @@ var createCounter = function(init) {
     return obj   // no need of return obj here, we can return the object directly
     
 };
-
+//function within function se bhi kar sakte hai ye kaam
 
 
 // or we can write like this
